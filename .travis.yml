@@ -9,6 +9,7 @@ cache:
 # S: Build Lifecycle
 install:
   - npm install # 下载依赖
+  - npm install hexo-deployer-git --save
 
 script:
   - hexo g # 我装了algolia的搜索工具。这一步正常可以是 hexo g
